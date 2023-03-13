@@ -43,11 +43,119 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="EventAdministatorMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="EventAdministatorMenu.Designer.cs">
+      <DependentUpon>EventAdministatorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewMatchupForRegularSeason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewMatchupForRegularSeason.Designer.cs">
+      <DependentUpon>AddNewMatchupForRegularSeason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen - Копировать %282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen - Копировать %282%29.Designer.cs">
+      <DependentUpon>MainScreen - Копировать %282%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamReport.Designer.cs">
+      <DependentUpon>TeamReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePlayers.Designer.cs">
+      <DependentUpon>ManagePlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageTeams.Designer.cs">
+      <DependentUpon>ManageTeams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageMatchups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageMatchups.Designer.cs">
+      <DependentUpon>ManageMatchups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSeasons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSeasons.Designer.cs">
+      <DependentUpon>ManageSeasons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalAdministratorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicalAdministratorMenu.Designer.cs">
+      <DependentUpon>TechnicalAdministratorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Photos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Photos.Designer.cs">
+      <DependentUpon>Photos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchupDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchupDetail.Designer.cs">
+      <DependentUpon>MatchupDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchupList.Designer.cs">
+      <DependentUpon>MatchupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerDetail.Designer.cs">
+      <DependentUpon>PlayerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayersMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayersMain.Designer.cs">
+      <DependentUpon>PlayersMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamDetail.Designer.cs">
+      <DependentUpon>TeamDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamsMain.Designer.cs">
+      <DependentUpon>TeamsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorMenu.Designer.cs">
+      <DependentUpon>VisitorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
